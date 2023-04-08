@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdf02ec2174c418194f9b7da122f7faa" Name="Diagram1">
+        <EntityTypeShape EntityType="PrintShopModel.AccountType" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Customers" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Employees" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.FinancialAccounting" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Gender" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.OrderMaterials" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Orders" Width="1.5" PointX="8.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Services" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Spezialization" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.Suppliers" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrintShopModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="PrintShopModel.FK_Customers_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Employees_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Customers_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Employees_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Employees_Spezialization" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_OrderMaterials_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="PrintShopModel.FK_Orders_Services" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
